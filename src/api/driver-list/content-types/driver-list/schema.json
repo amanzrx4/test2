@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_lists",
+  "info": {
+    "singularName": "driver-list",
+    "pluralName": "driver-lists",
+    "displayName": "Driver list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "TrackingNumber": {
+      "type": "biginteger"
+    },
+    "From": {
+      "type": "string"
+    },
+    "To": {
+      "type": "string"
+    },
+    "Speed": {
+      "type": "decimal"
+    },
+    "Running": {
+      "type": "boolean",
+      "default": false
+    },
+    "Time": {
+      "type": "time"
+    }
+  }
+}
